@@ -1,0 +1,77 @@
+[+] execute command from commandline: hf mf autopwn
+
+[+] Using UART port /dev/tty.usbmodem101
+[+] Communicating with PM3 over USB-CDC
+[usb|script] pm3 --> hf mf autopwn
+
+[#] Static nonce....... 009080a2
+[!] No known key was supplied, key recovery might fail
+[+] loaded 5 user keys
+[+] loaded 61 hardcoded keys
+[=] Running strategy 1
+[+] Target sector   0 key type A -- found valid key [ A0A1A2A3A4A5 ] (used for nested / hardnested attack)
+[+] Target sector   0 key type B -- found valid key [ B0B1B2B3B4B5 ]
+[+] Target sector   1 key type A -- found valid key [ A0A1A2A3A4A5 ]
+[+] Target sector   1 key type B -- found valid key [ B0B1B2B3B4B5 ]
+[+] Target sector   2 key type A -- found valid key [ A0A1A2A3A4A5 ]
+[+] Target sector   2 key type B -- found valid key [ B0B1B2B3B4B5 ]
+[+] Target sector   3 key type A -- found valid key [ A0A1A2A3A4A5 ]
+[+] Target sector   3 key type B -- found valid key [ B0B1B2B3B4B5 ]
+[+] Target sector   4 key type A -- found valid key [ A0A1A2A3A4A5 ]
+[+] Target sector   4 key type B -- found valid key [ B0B1B2B3B4B5 ]
+[+] Target sector   5 key type A -- found valid key [ A0A1A2A3A4A5 ]
+[+] Target sector   5 key type B -- found valid key [ B0B1B2B3B4B5 ]
+[+] Target sector   6 key type A -- found valid key [ A0A1A2A3A4A5 ]
+[+] Target sector   6 key type B -- found valid key [ B0B1B2B3B4B5 ]
+[+] Target sector   7 key type A -- found valid key [ A0A1A2A3A4A5 ]
+[+] Target sector   7 key type B -- found valid key [ B0B1B2B3B4B5 ]
+[+] Target sector   8 key type A -- found valid key [ A0A1A2A3A4A5 ]
+[+] Target sector   8 key type B -- found valid key [ B0B1B2B3B4B5 ]
+[+] Target sector   9 key type A -- found valid key [ A0A1A2A3A4A5 ]
+[+] Target sector   9 key type B -- found valid key [ B0B1B2B3B4B5 ]
+[+] Target sector  10 key type A -- found valid key [ A0A1A2A3A4A5 ]
+[+] Target sector  10 key type B -- found valid key [ B0B1B2B3B4B5 ]
+[+] Target sector  11 key type A -- found valid key [ A0A1A2A3A4A5 ]
+[+] Target sector  11 key type B -- found valid key [ B0B1B2B3B4B5 ]
+[+] Target sector  12 key type A -- found valid key [ A0A1A2A3A4A5 ]
+[+] Target sector  12 key type B -- found valid key [ B0B1B2B3B4B5 ]
+[+] Target sector  13 key type A -- found valid key [ A0A1A2A3A4A5 ]
+[+] Target sector  13 key type B -- found valid key [ B0B1B2B3B4B5 ]
+[+] Target sector  14 key type A -- found valid key [ A0A1A2A3A4A5 ]
+[+] Target sector  14 key type B -- found valid key [ B0B1B2B3B4B5 ]
+[+] Target sector  15 key type A -- found valid key [ A0A1A2A3A4A5 ]
+[+] Target sector  15 key type B -- found valid key [ B0B1B2B3B4B5 ]
+
+[+] -----+-----+--------------+---+--------------+----
+[+]  Sec | Blk | key A        |res| key B        |res
+[+] -----+-----+--------------+---+--------------+----
+[+]  000 | 003 | A0A1A2A3A4A5 | D | B0B1B2B3B4B5 | D 
+[+]  001 | 007 | A0A1A2A3A4A5 | D | B0B1B2B3B4B5 | D 
+[+]  002 | 011 | A0A1A2A3A4A5 | D | B0B1B2B3B4B5 | D 
+[+]  003 | 015 | A0A1A2A3A4A5 | D | B0B1B2B3B4B5 | D 
+[+]  004 | 019 | A0A1A2A3A4A5 | D | B0B1B2B3B4B5 | D 
+[+]  005 | 023 | A0A1A2A3A4A5 | D | B0B1B2B3B4B5 | D 
+[+]  006 | 027 | A0A1A2A3A4A5 | D | B0B1B2B3B4B5 | D 
+[+]  007 | 031 | A0A1A2A3A4A5 | D | B0B1B2B3B4B5 | D 
+[+]  008 | 035 | A0A1A2A3A4A5 | D | B0B1B2B3B4B5 | D 
+[+]  009 | 039 | A0A1A2A3A4A5 | D | B0B1B2B3B4B5 | D 
+[+]  010 | 043 | A0A1A2A3A4A5 | D | B0B1B2B3B4B5 | D 
+[+]  011 | 047 | A0A1A2A3A4A5 | D | B0B1B2B3B4B5 | D 
+[+]  012 | 051 | A0A1A2A3A4A5 | D | B0B1B2B3B4B5 | D 
+[+]  013 | 055 | A0A1A2A3A4A5 | D | B0B1B2B3B4B5 | D 
+[+]  014 | 059 | A0A1A2A3A4A5 | D | B0B1B2B3B4B5 | D 
+[+]  015 | 063 | A0A1A2A3A4A5 | D | B0B1B2B3B4B5 | D 
+[+] -----+-----+--------------+---+--------------+----
+[=] ( D:Dictionary / S:darkSide / U:User / R:Reused / N:Nested / H:Hardnested / C:statiCnested / A:keyA  )
+[?] Hint: MAD key detected. Try `hf mf mad` for more details
+
+
+[+] Generating binary key file
+[+] Found keys have been dumped to `/Users/tomas/hf-mf-834BCCE4-key-002.bin`
+[=] --[ FFFFFFFFFFFF ]-- has been inserted for unknown keys where res is 0
+[=] Transferring keys to simulator memory ( ok )
+[=] Dumping card content to emulator memory (Cmd Error: 04 can occur)
+[=] downloading card content from emulator memory
+[+] Saved 1024 bytes to binary file `/Users/tomas/hf-mf-834BCCE4-dump-002.bin`
+[+] Saved to json file /Users/tomas/hf-mf-834BCCE4-dump-002.json
+[=] Autopwn execution time: 2 seconds

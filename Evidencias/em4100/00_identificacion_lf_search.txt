@@ -1,0 +1,36 @@
+[+] execute command from commandline: lf search
+
+[+] Using UART port /dev/ttyACM0
+[+] Communicating with PM3 over USB-CDC
+[usb|script] pm3 --> lf search
+
+[=] Note: False Positives ARE possible
+[=] 
+[=] Checking for known tags...
+[=] 
+[+] EM 410x ID 0E008D9291
+[+] EM410x ( RF/64 )
+[=] -------- Possible de-scramble patterns ---------
+[+] Unique TAG ID      : 7000B14989
+[=] HoneyWell IdentKey
+[+]     DEZ 8          : 09278097
+[+]     DEZ 10         : 0009278097
+[+]     DEZ 5.5        : 00141.37521
+[+]     DEZ 3.5A       : 014.37521
+[+]     DEZ 3.5B       : 000.37521
+[+]     DEZ 3.5C       : 141.37521
+[+]     DEZ 14/IK2     : 00060138820241
+[+]     DEZ 15/IK3     : 000481047955849
+[+]     DEZ 20/ZK      : 07000000110104090809
+[=] 
+[+] Other              : 37521_141_09278097
+[+] Pattern Paxton     : 245485713 [0xEA1D091]
+[+] Pattern 1          : 2581129 [0x276289]
+[+] Pattern Sebury     : 37521 13 889489  [0x9291 0xD 0xD9291]
+[+] VD / ID            : 014 / 0009278097
+[+] Pattern ELECTRA    : 3584 9278097
+[=] ------------------------------------------------
+
+[+] Valid EM410x ID found!
+
+[=] Couldn't identify a chipset

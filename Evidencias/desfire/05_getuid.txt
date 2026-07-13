@@ -1,0 +1,6 @@
+[+] execute command from commandline: hf mfdes getuid
+
+[+] Using UART port /dev/ttyACM0
+[+] Communicating with PM3 over USB-CDC
+[usb|script] pm3 --> hf mfdes getuid
+[+] Desfire UID[7]: 04 70 1C 5A 5D 3F 80 

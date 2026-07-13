@@ -1,0 +1,38 @@
+[+] execute command from commandline: hf search
+
+[+] Using UART port /dev/ttyACM0
+[+] Communicating with PM3 over USB-CDC
+[usb|script] pm3 --> hf search
+
+[=] ---------- ISO14443-A Information ----------
+[+]  UID: 04 70 1C 5A 5D 3F 80   ( double )
+[+] ATQA: 03 44
+[+]  SAK: 20 [1]
+[+] MANUFACTURER: NXP Semiconductors Germany
+[+] Possible types:
+[+]    MIFARE DESFire CL2
+[+]    MIFARE DESFire EV1 256B/2K/4K/8K CL2
+[+]    MIFARE DESFire EV2 2K/4K/8K/16K/32K
+[+]    MIFARE DESFire EV3 2K/4K/8K
+[+]    MIFARE DESFire Light 640B
+[+]    MIFARE Duox
+[+]    NTAG 4xx
+[=] -------------------------- ATS --------------------------
+[+] ATS: 06 75 77 81 02 80 [ 02 F0 ]
+[=]      06...............  TL    length is 6 bytes
+[=]      ...75............  T0    TA1 is present, TB1 is present, TC1 is present, FSCI is 5 (FSC = 64)
+[=]      ......77.........  TA1   different divisors are supported, DR: [2, 4, 8], DS: [2, 4, 8]
+[=]      .........81......  TB1   SFGI = 1 (SFGT = 8192/fc), FWI = 8 (FWT = 1048576/fc)
+[=]      ............02...  TC1   NAD is NOT supported, CID is supported
+
+[=] -------------------- Historical bytes --------------------
+[+] 80  (compact TLV data object)
+[=] 
+
+[?] Hint: Try `hf mfdes info`
+[?] Hint: Try `hf ntag424 info`
+
+
+[+] Valid ISO 14443-A tag found
+
+[?] Hint: Try `hf mfdes` commands

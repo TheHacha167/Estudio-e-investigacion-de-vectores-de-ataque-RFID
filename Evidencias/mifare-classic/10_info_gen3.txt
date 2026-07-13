@@ -1,0 +1,30 @@
+[+] execute command from commandline: hf mf info
+
+[+] Using UART port /dev/tty.usbmodem101
+[+] Communicating with PM3 over USB-CDC
+[usb|script] pm3 --> hf mf info
+
+[=] --- ISO14443-a Information -----------------------------
+[+]  UID: 04 12 19 C3 21 93 16 
+[+] ATQA: 00 42
+[+]  SAK: 18 [1]
+
+[=] --- Keys Information
+[+] loaded 2 user keys
+[+] loaded 61 hardcoded keys
+[+] Sector 0 key A... FFFFFFFFFFFF
+[+] Sector 0 key B... FFFFFFFFFFFF
+[+] Sector 1 key A... FFFFFFFFFFFF
+[+] Sector 1 key B... FFFFFFFFFFFF
+[+] Block 0.......... 041219C3219316984200E32000000000 | B.. ....
+
+[=] --- Fingerprint
+[+] n/a
+
+[=] --- Magic Tag Information
+
+[+] Magic capabilities... Gen 3 / APDU ( possibly )
+
+[=] --- PRNG Information
+[+] Prng....... weak
+

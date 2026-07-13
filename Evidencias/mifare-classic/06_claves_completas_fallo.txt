@@ -1,0 +1,16 @@
+[+] execute command from commandline: hf mf autopwn
+
+[+] Using UART port /dev/tty.usbmodem101
+[+] Communicating with PM3 over USB-CDC
+[usb|script] pm3 --> hf mf autopwn
+
+[!] Known key failed. Can't authenticate to block   0 key type A
+[#] Static nonce....... 009080a2
+[!] No known key was supplied, key recovery might fail
+[+] loaded 5 user keys
+[+] loaded 61 hardcoded keys
+[=] Running strategy 1
+[=] Running strategy 2
+[=] .....
+[-] No usable key was found!
+[?] Hint: Try `hf mf autopwn -f mfc_default_keys`  i.e. the Randy special

@@ -1,0 +1,11 @@
+[+] execute command from commandline: hf mfdes changekey --aid 000000 --algo 2tdea --key AABBCCDDEEFF00112233445566778899 --newkey 00000000000000000000000000000000 -n 0 --newkeyno 0
+
+[+] Using UART port /dev/ttyACM0
+[+] Communicating with PM3 over USB-CDC
+[usb|script] pm3 --> hf mfdes changekey --aid 000000 --algo 2tdea --key AABBCCDDEEFF00112233445566778899 --newkey 00000000000000000000000000000000 -n 0 --newkeyno 0
+[=] Changing PICC key
+[=] auth key 0: 2tdea [16] AA BB CC DD EE FF 00 11 22 33 44 55 66 77 88 99 
+[=] changing key number  0x00 (0)
+[=] old key: 2tdea [16] AA BB CC DD EE FF 00 11 22 33 44 55 66 77 88 99 
+[=] new key: 2tdea [16] 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[+] Change key ( ok )

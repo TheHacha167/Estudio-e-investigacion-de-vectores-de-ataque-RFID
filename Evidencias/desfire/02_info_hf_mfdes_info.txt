@@ -1,0 +1,56 @@
+[+] execute command from commandline: hf mfdes info
+
+[+] Using UART port /dev/ttyACM0
+[+] Communicating with PM3 over USB-CDC
+[usb|script] pm3 --> hf mfdes info
+
+[=] ---------------------------------- Tag Information ----------------------------------
+[+]               UID: 04 70 1C 5A 5D 3F 80 
+[+]      Batch number: BA 55 15 B1 90 
+[+]   Production date: week 45 / 2014
+[+]      Product type: MIFARE DESFire native IC (physical card)
+
+[=] --- Hardware Information
+[=]    raw: 04010101001805
+[=]      Vendor Id: NXP Semiconductors Germany
+[=]           Type: 0x01 ( DESFire )
+[=]        Subtype: 0x01
+[=]        Version: 1.0 ( DESFire EV1 )
+[=]   Storage size: 0x18 ( 4096 bytes )
+[=]       Protocol: 0x05 ( ISO 14443-2, 14443-3 )
+
+[=] --- Software Information
+[=]    raw: 04010101041805
+[=]      Vendor Id: NXP Semiconductors Germany
+[=]           Type: 0x01 ( DESFire )
+[=]        Subtype: 0x01
+[=]        Version: 1.4
+[=]   Storage size: 0x18 ( 4096 bytes )
+[=]       Protocol: 0x05 ( ISO 14443-3, 14443-4 )
+
+[=] --------------------------------- Card capabilities ---------------------------------
+[=] 	1.4 - DESFire Ev1 MF3ICD21/41/81, EAL4+
+[+] ------------------------------------ PICC level -------------------------------------
+[+] # applications....... 0
+[+] 
+[+] PICC level auth commands
+[+]    Auth.............. YES
+[+]    Auth ISO.......... YES
+[+]    Auth AES.......... NO
+[+]    Auth Ev2.......... NO
+[+]    Auth ISO Native... YES
+[+]    Auth LRP.......... NO
+[+] PICC level rights
+[+] [1...] CMK Configuration changeable   : YES
+[+] [.1..] CMK required for create/delete : NO
+[+] [..1.] Directory list access with CMK : NO
+[+] [...1] CMK is changeable              : YES
+[+] 
+[+] Key type... 2TDEA
+[+] Key cnt.... 1
+[+] PICC key 0 version: 0 (0x00)
+
+[=] --- Free memory
+[+]    Available free memory on card... 4864 bytes
+
+[=] Standalone DESFire

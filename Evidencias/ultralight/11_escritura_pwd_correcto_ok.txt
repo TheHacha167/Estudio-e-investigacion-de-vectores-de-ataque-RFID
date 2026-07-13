@@ -1,0 +1,9 @@
+[+] execute command from commandline: hf mfu wrbl -b 4 -d AABBCCDD -k DEADBEEF
+
+[+] Using UART port /dev/ttyACM0
+[+] Communicating with PM3 over USB-CDC
+[usb|script] pm3 --> hf mfu wrbl -b 4 -d AABBCCDD -k DEADBEEF
+[=] Block: 4 (0x04) [ AA BB CC DD ]
+[=] Using pwd DE AD BE EF 
+[+] Write ( ok )
+[?] Hint: Try `hf mfu rdbl -b 4` to verify 

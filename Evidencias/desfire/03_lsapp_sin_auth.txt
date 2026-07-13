@@ -1,0 +1,26 @@
+[+] execute command from commandline: hf mfdes lsapp
+
+[+] Using UART port /dev/ttyACM0
+[+] Communicating with PM3 over USB-CDC
+[usb|script] pm3 --> hf mfdes lsapp
+[=] It may take up to 15 seconds. Processing...
+
+[+] ------------------------------------ PICC level -------------------------------------
+[+] # applications....... 0
+[+] 
+[+] PICC level auth commands
+[+]    Auth.............. YES
+[+]    Auth ISO.......... YES
+[+]    Auth AES.......... NO
+[+]    Auth Ev2.......... NO
+[+]    Auth ISO Native... YES
+[+]    Auth LRP.......... NO
+[+] PICC level rights
+[+] [1...] CMK Configuration changeable   : YES
+[+] [.1..] CMK required for create/delete : NO
+[+] [..1.] Directory list access with CMK : NO
+[+] [...1] CMK is changeable              : YES
+[+] 
+[+] Key type... 2TDEA
+[+] Key cnt.... 1
+[+] PICC key 0 version: 0 (0x00)

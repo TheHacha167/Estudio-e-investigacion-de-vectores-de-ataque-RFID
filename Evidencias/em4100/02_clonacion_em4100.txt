@@ -1,0 +1,11 @@
+[+] execute command from commandline: lf em 410x clone --id 0E008D9291
+
+[+] Using UART port /dev/tty.usbmodem101
+[+] Communicating with PM3 over USB-CDC
+[usb|script] pm3 --> lf em 410x clone --id 0E008D9291
+[+] Preparing to clone EM4102 to T55x7 tag with EM Tag ID 0E008D9291 (RF/64)
+[=] Encoded to FF 83 A0 04 77 22 C8 70 
+[#] Clock rate: 64
+[#] Tag T55x7 written with 0xff83a0047722c870
+[+] Done!
+[?] Hint: Try `lf em 410x reader` to verify

@@ -1,0 +1,7 @@
+[+] execute command from commandline: hf mfdes auth --aid 000000 --algo 2tdea --key 00000000000000000000000000000000 -n 0
+
+[+] Using UART port /dev/ttyACM0
+[+] Communicating with PM3 over USB-CDC
+[usb|script] pm3 --> hf mfdes auth --aid 000000 --algo 2tdea --key 00000000000000000000000000000000 -n 0
+[!!] Desfire authenticate error. Result: [7] Sending auth command failed
+[-] Select or authentication AID 000000 failed. Result [7] Sending auth command failed

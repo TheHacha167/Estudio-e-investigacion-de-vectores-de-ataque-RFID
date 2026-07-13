@@ -1,0 +1,69 @@
+[+] execute command from commandline: hf mfu info
+
+[+] Using UART port /dev/ttyACM0
+[+] Communicating with PM3 over USB-CDC
+[usb|script] pm3 --> hf mfu info
+
+[=] --- Tag Information --------------------------
+[+]       TYPE: MIFARE Ultralight EV1 48bytes (MF0UL1101)
+[+]        UID: 04 4F 3E 62 F8 22 90 
+[+]     UID[0]: 04, NXP Semiconductors Germany
+[+]       BCC0: FD ( ok )
+[+]       BCC1: 28 ( ok )
+[+]   Internal: 48 ( default )
+[+]       Lock: 00 00  - 0000000000000000
+[+]        OTP: 00 00 00 00  - 00000000000000000000000000000000
+
+[=] --- Tag Counters
+[=]        [0]: 00 00 00 
+[+]             - BD tearing ( ok )
+[=]        [1]: 00 00 00 
+[+]             - BD tearing ( ok )
+[=]        [2]: 00 00 00 
+[+]             - BD tearing ( ok )
+
+[=]  IC signature public key name: NXP Ultralight EV1
+[=] IC signature public key value: 0490933BDCD6E99B4E255E3DA55389A8
+[=]                              : 27564E11718E017292FAF23226A96614
+[=]                              : B8
+[=]     Elliptic curve parameters: secp128r1
+[=]              TAG IC Signature: 273D095D843C4FA75F80EA4063C19099
+[=]                              : D0A37DEBEE8B92AE6B21C4804EC1D445
+[+]        Signature verification: successful
+
+[=] --- Tag Silicon Information
+[=]        Wafer Counter: 19160844 ( 0x1245F0C )
+[=]    Wafer Coordinates: x 79, y 62 (0x4F, 0x3E)
+[=]            Test Site: 2
+
+[=] --- Tag Version
+[=]        Raw bytes: 0004030101000B03
+[=]        Vendor ID: 04, NXP Semiconductors Germany
+[=]     Product type: Ultralight
+[=]  Product subtype: 01, 17 pF
+[=]    Major version: 01
+[=]    Minor version: 00
+[=]             Size: 0B, (64 <-> 32 bytes)
+[=]    Protocol type: 03, ISO14443-3 Compliant
+
+[=] --- Tag Configuration
+[=]   cfg0 [16/0x10]: 000000FF
+[=]                     - strong modulation mode disabled
+[=]                     - pages don't need authentication
+[=]   cfg1 [17/0x11]: 00050000
+[=]                     - Unlimited password attempts
+[=]                     - NFC counter disabled
+[=]                     - NFC counter not protected
+[=]                     - user configuration writeable
+[=]                     - write access is protected with password
+[=]                     - 05, Virtual Card Type Identifier is default
+[=]   PWD  [18/0x12]: 00000000 ( cannot be read )
+[=]   PACK [19/0x13]: 0000     ( cannot be read )
+[=]   RFU  [19/0x13]:     0000 ( cannot be read )
+
+[+] --- Known EV1/NTAG passwords
+[+] Password... FFFFFFFF  pack... 0000
+[=] 
+[=] --- Fingerprint
+[=] n/a
+

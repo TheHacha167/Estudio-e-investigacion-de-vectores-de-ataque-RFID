@@ -1,0 +1,8 @@
+[+] execute command from commandline: hf mfu wrbl -b 4 -d 00000000
+
+[+] Using UART port /dev/ttyACM0
+[+] Communicating with PM3 over USB-CDC
+[usb|script] pm3 --> hf mfu wrbl -b 4 -d 00000000
+[=] Block: 4 (0x04) [ 00 00 00 00 ]
+[+] Write ( ok )
+[?] Hint: Try `hf mfu rdbl -b 4` to verify 

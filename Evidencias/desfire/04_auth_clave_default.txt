@@ -1,0 +1,11 @@
+[+] execute command from commandline: hf mfdes auth --aid 000000 --algo 2tdea --key 00000000000000000000000000000000 -n 0
+
+[+] Using UART port /dev/ttyACM0
+[+] Communicating with PM3 over USB-CDC
+[usb|script] pm3 --> hf mfdes auth --aid 000000 --algo 2tdea --key 00000000000000000000000000000000 -n 0
+[+] PICC selected and authenticated succesfully
+[+] Context: 
+[=] Key num: 0 Key algo: 2tdea Key[16]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[=] Secure channel: ev1 Command set: niso Communication mode: plain
+[=] Session key [16]: 01 02 03 04 0D 53 4B EE 01 02 03 04 0D 53 4B EE  
+[=]     IV [8]: 00 00 00 00 00 00 00 00 

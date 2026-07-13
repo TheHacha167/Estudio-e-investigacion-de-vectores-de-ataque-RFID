@@ -1,0 +1,21 @@
+[+] execute command from commandline: hf search
+
+[+] Using UART port /dev/ttyACM0
+[+] Communicating with PM3 over USB-CDC
+[usb|script] pm3 --> hf search
+
+[=] ---------- ISO14443-A Information ----------
+[+]  UID: 6A 19 02 84   ( ONUID, re-used )
+[+] ATQA: 00 04
+[+]  SAK: 08 [2]
+[+] Possible types:
+[+]    MIFARE Classic 1K
+[=] proprietary non iso14443-4 card found, RATS not supported
+[=] 
+[+] Prng detection....... weak
+
+[?] Hint: Try `hf mf info`
+
+
+[+] Valid ISO 14443-A tag found
+

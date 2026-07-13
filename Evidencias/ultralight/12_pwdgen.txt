@@ -1,0 +1,25 @@
+[+] execute command from commandline: hf mfu pwdgen -r
+
+[+] Using UART port /dev/ttyACM0
+[+] Communicating with PM3 over USB-CDC
+[usb|script] pm3 --> hf mfu pwdgen -r
+[=] -----------------------------------
+[=]  UID 4b... 04 4F 3E 62 
+[=]  UID 7b... 04 4F 3E 62 F8 22 90 
+[=] -----------------------------------
+[=]  algo               pwd       pack
+[=] -----------------------------+-----
+[=]  Transport EV1..... 34D32057 | 7536
+[=]  Amiibo............ 8793EA3D | 8080
+[=]  Lego Dimension.... 011D3B31 | AA55
+[=]  XYZ 3D printer.... 1054F439 | C474
+[=]  Xiaomi purifier... A0E90EF5 | ADA0
+[=]  NTAG tools........ D7416181 | 0000
+[=] -----------------------------+-----
+[=] Vingcard
+[=]  Saflok algo        | 65E23C45F04B
+[=]  SALTO algo
+[=]  Dorma Kaba algo
+[=]  STiD algo
+[=] -------------------------------------
+[=]  Bambu........ 8C54B28A4F1B

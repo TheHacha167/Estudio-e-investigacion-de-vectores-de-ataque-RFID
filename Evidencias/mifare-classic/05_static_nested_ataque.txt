@@ -1,0 +1,170 @@
+[+] execute command from commandline: hf mf autopwn
+
+[+] Using UART port /dev/tty.usbmodem101
+[+] Communicating with PM3 over USB-CDC
+[usb|script] pm3 --> hf mf autopwn
+
+[!] Known key failed. Can't authenticate to block   0 key type A
+[#] Static nonce....... 009080a2
+[!] No known key was supplied, key recovery might fail
+[+] loaded 5 user keys
+[+] loaded 61 hardcoded keys
+[=] Running strategy 1
+[=] .....
+[=] Running strategy 2
+[=] .....
+[+] Target sector   0 key type A -- found valid key [ FFFFFFFFFFFF ] (used for nested / hardnested attack)
+[+] Target sector   0 key type B -- found valid key [ FFFFFFFFFFFF ]
+
+[+] Found 1 key candidates
+[+] target block    4 key type A -- found valid key [ 7A8B9C0D1E2F ]
+[+] Target sector   1 key type A -- found valid key [ 7A8B9C0D1E2F ]
+
+[+] Found 1 key candidates
+[+] target block    4 key type B -- found valid key [ F2E1D0C9B8A7 ]
+[+] Target sector   1 key type B -- found valid key [ F2E1D0C9B8A7 ]
+
+[+] Found 1 key candidates
+[+] target block    8 key type A -- found valid key [ 7A8B9C0D1E2F ]
+[+] Target sector   2 key type A -- found valid key [ 7A8B9C0D1E2F ]
+
+[+] Found 1 key candidates
+[+] target block    8 key type B -- found valid key [ F2E1D0C9B8A7 ]
+[+] Target sector   2 key type B -- found valid key [ F2E1D0C9B8A7 ]
+
+[+] Found 1 key candidates
+[+] target block   12 key type A -- found valid key [ 7A8B9C0D1E2F ]
+[+] Target sector   3 key type A -- found valid key [ 7A8B9C0D1E2F ]
+
+[+] Found 1 key candidates
+[+] target block   12 key type B -- found valid key [ F2E1D0C9B8A7 ]
+[+] Target sector   3 key type B -- found valid key [ F2E1D0C9B8A7 ]
+
+[+] Found 1 key candidates
+[+] target block   16 key type A -- found valid key [ 7A8B9C0D1E2F ]
+[+] Target sector   4 key type A -- found valid key [ 7A8B9C0D1E2F ]
+
+[+] Found 1 key candidates
+[+] target block   16 key type B -- found valid key [ F2E1D0C9B8A7 ]
+[+] Target sector   4 key type B -- found valid key [ F2E1D0C9B8A7 ]
+
+[+] Found 1 key candidates
+[+] target block   20 key type A -- found valid key [ 7A8B9C0D1E2F ]
+[+] Target sector   5 key type A -- found valid key [ 7A8B9C0D1E2F ]
+
+[+] Found 1 key candidates
+[+] target block   20 key type B -- found valid key [ F2E1D0C9B8A7 ]
+[+] Target sector   5 key type B -- found valid key [ F2E1D0C9B8A7 ]
+
+[+] Found 1 key candidates
+[+] target block   24 key type A -- found valid key [ 7A8B9C0D1E2F ]
+[+] Target sector   6 key type A -- found valid key [ 7A8B9C0D1E2F ]
+
+[+] Found 1 key candidates
+[+] target block   24 key type B -- found valid key [ F2E1D0C9B8A7 ]
+[+] Target sector   6 key type B -- found valid key [ F2E1D0C9B8A7 ]
+
+[+] Found 1 key candidates
+[+] target block   28 key type A -- found valid key [ 7A8B9C0D1E2F ]
+[+] Target sector   7 key type A -- found valid key [ 7A8B9C0D1E2F ]
+
+[+] Found 1 key candidates
+[+] target block   28 key type B -- found valid key [ F2E1D0C9B8A7 ]
+[+] Target sector   7 key type B -- found valid key [ F2E1D0C9B8A7 ]
+
+[+] Found 1 key candidates
+[+] target block   32 key type A -- found valid key [ 7A8B9C0D1E2F ]
+[+] Target sector   8 key type A -- found valid key [ 7A8B9C0D1E2F ]
+
+[+] Found 1 key candidates
+[+] target block   32 key type B -- found valid key [ F2E1D0C9B8A7 ]
+[+] Target sector   8 key type B -- found valid key [ F2E1D0C9B8A7 ]
+
+[+] Found 1 key candidates
+[+] target block   36 key type A -- found valid key [ 7A8B9C0D1E2F ]
+[+] Target sector   9 key type A -- found valid key [ 7A8B9C0D1E2F ]
+
+[+] Found 1 key candidates
+[+] target block   36 key type B -- found valid key [ F2E1D0C9B8A7 ]
+[+] Target sector   9 key type B -- found valid key [ F2E1D0C9B8A7 ]
+
+[+] Found 1 key candidates
+[+] target block   40 key type A -- found valid key [ 7A8B9C0D1E2F ]
+[+] Target sector  10 key type A -- found valid key [ 7A8B9C0D1E2F ]
+
+[+] Found 1 key candidates
+[+] target block   40 key type B -- found valid key [ F2E1D0C9B8A7 ]
+[+] Target sector  10 key type B -- found valid key [ F2E1D0C9B8A7 ]
+
+[+] Found 1 key candidates
+[+] target block   44 key type A -- found valid key [ 7A8B9C0D1E2F ]
+[+] Target sector  11 key type A -- found valid key [ 7A8B9C0D1E2F ]
+
+[+] Found 1 key candidates
+[+] target block   44 key type B -- found valid key [ F2E1D0C9B8A7 ]
+[+] Target sector  11 key type B -- found valid key [ F2E1D0C9B8A7 ]
+
+[+] Found 1 key candidates
+[+] target block   48 key type A -- found valid key [ 7A8B9C0D1E2F ]
+[+] Target sector  12 key type A -- found valid key [ 7A8B9C0D1E2F ]
+
+[+] Found 1 key candidates
+[+] target block   48 key type B -- found valid key [ F2E1D0C9B8A7 ]
+[+] Target sector  12 key type B -- found valid key [ F2E1D0C9B8A7 ]
+
+[+] Found 1 key candidates
+[+] target block   52 key type A -- found valid key [ 7A8B9C0D1E2F ]
+[+] Target sector  13 key type A -- found valid key [ 7A8B9C0D1E2F ]
+
+[+] Found 1 key candidates
+[+] target block   52 key type B -- found valid key [ F2E1D0C9B8A7 ]
+[+] Target sector  13 key type B -- found valid key [ F2E1D0C9B8A7 ]
+
+[+] Found 1 key candidates
+[+] target block   56 key type A -- found valid key [ 7A8B9C0D1E2F ]
+[+] Target sector  14 key type A -- found valid key [ 7A8B9C0D1E2F ]
+
+[+] Found 1 key candidates
+[+] target block   56 key type B -- found valid key [ F2E1D0C9B8A7 ]
+[+] Target sector  14 key type B -- found valid key [ F2E1D0C9B8A7 ]
+
+[+] Found 1 key candidates
+[+] target block   60 key type A -- found valid key [ 7A8B9C0D1E2F ]
+[+] Target sector  15 key type A -- found valid key [ 7A8B9C0D1E2F ]
+
+[+] Found 1 key candidates
+[+] target block   60 key type B -- found valid key [ F2E1D0C9B8A7 ]
+[+] Target sector  15 key type B -- found valid key [ F2E1D0C9B8A7 ]
+
+[+] -----+-----+--------------+---+--------------+----
+[+]  Sec | Blk | key A        |res| key B        |res
+[+] -----+-----+--------------+---+--------------+----
+[+]  000 | 003 | FFFFFFFFFFFF | D | FFFFFFFFFFFF | D 
+[+]  001 | 007 | 7A8B9C0D1E2F | C | F2E1D0C9B8A7 | C 
+[+]  002 | 011 | 7A8B9C0D1E2F | C | F2E1D0C9B8A7 | C 
+[+]  003 | 015 | 7A8B9C0D1E2F | C | F2E1D0C9B8A7 | C 
+[+]  004 | 019 | 7A8B9C0D1E2F | C | F2E1D0C9B8A7 | C 
+[+]  005 | 023 | 7A8B9C0D1E2F | C | F2E1D0C9B8A7 | C 
+[+]  006 | 027 | 7A8B9C0D1E2F | C | F2E1D0C9B8A7 | C 
+[+]  007 | 031 | 7A8B9C0D1E2F | C | F2E1D0C9B8A7 | C 
+[+]  008 | 035 | 7A8B9C0D1E2F | C | F2E1D0C9B8A7 | C 
+[+]  009 | 039 | 7A8B9C0D1E2F | C | F2E1D0C9B8A7 | C 
+[+]  010 | 043 | 7A8B9C0D1E2F | C | F2E1D0C9B8A7 | C 
+[+]  011 | 047 | 7A8B9C0D1E2F | C | F2E1D0C9B8A7 | C 
+[+]  012 | 051 | 7A8B9C0D1E2F | C | F2E1D0C9B8A7 | C 
+[+]  013 | 055 | 7A8B9C0D1E2F | C | F2E1D0C9B8A7 | C 
+[+]  014 | 059 | 7A8B9C0D1E2F | C | F2E1D0C9B8A7 | C 
+[+]  015 | 063 | 7A8B9C0D1E2F | C | F2E1D0C9B8A7 | C 
+[+] -----+-----+--------------+---+--------------+----
+[=] ( D:Dictionary / S:darkSide / U:User / R:Reused / N:Nested / H:Hardnested / C:statiCnested / A:keyA  )
+
+
+[+] Generating binary key file
+[+] Found keys have been dumped to `/Users/tomas/hf-mf-834BCCE4-key-003.bin`
+[=] --[ FFFFFFFFFFFF ]-- has been inserted for unknown keys where res is 0
+[=] Transferring keys to simulator memory ( ok )
+[=] Dumping card content to emulator memory (Cmd Error: 04 can occur)
+[=] downloading card content from emulator memory
+[+] Saved 1024 bytes to binary file `/Users/tomas/hf-mf-834BCCE4-dump-003.bin`
+[+] Saved to json file /Users/tomas/hf-mf-834BCCE4-dump-003.json
+[=] Autopwn execution time: 36 seconds
