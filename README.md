@@ -252,9 +252,9 @@ Los volcados publicados deben eliminar o sustituir:
 
 | Vídeo | Descripción | Enlace |
 |---|---|---|
-| Vídeo 1 | Copia de una credencial EM4100 sobre un soporte T5577 | [Ver vídeo](ENLACE_AL_VIDEO_1) |
-| Vídeo 2 | Recuperación de claves y lectura de sectores de MIFARE Classic 1K | [Ver vídeo](ENLACE_AL_VIDEO_2) |
-| Vídeo 3 | Evaluación y cambio de clave en MIFARE DESFire EV1 | [Ver vídeo](ENLACE_AL_VIDEO_3) |
+| Vídeo 1 | Copia de una credencial EM4100 sobre un soporte T5577 | [Ver vídeo](https://youtu.be/opEQlmbebFo) |
+| Vídeo 2 | Recuperación de claves y lectura de sectores de MIFARE Classic 1K | [Ver vídeo](https://youtu.be/-vQIvSAxuf0) |
+| Vídeo 3 | Evaluación y cambio de clave en MIFARE DESFire EV1 | [Ver vídeo](https://youtu.be/d1-o3jhK1DQ) |
 
 Antes de compartir los vídeos públicamente se debe comprobar que no muestran:
 
