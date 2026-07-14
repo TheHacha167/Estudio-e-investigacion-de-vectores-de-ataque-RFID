@@ -285,52 +285,6 @@ Antes de compartir los vídeos públicamente se debe comprobar que no muestran:
 | MIFARE DESFire EV1 | Clave maestra predeterminada | 5.5.3 |
 | MIFARE DESFire EV1 | Resistencia sin clave conocida | 5.5.4 |
 
----
-
-## Anonimización
-
-Antes de publicar las evidencias se deben eliminar o sustituir:
-
-- Identificadores reales
-- Claves reutilizables
-- Contraseñas
-- Claves de sesión
-- Nombres de usuario
-- Rutas del sistema de archivos
-- Números de serie
-- Información personal
-- Referencias a sistemas o instalaciones reales
-
-Los valores sustituidos pueden aparecer como:
-
-```text
-[UID_REDACTED]
-[KEY_REDACTED]
-[PASSWORD_REDACTED]
-[LOCAL_PATH_REDACTED]
-```
-
----
-
-## Integridad de las evidencias
-
-Se recomienda calcular un hash SHA-256 para cada archivo publicado.
-
-```bash
-find evidencias -type f -exec sha256sum "{}" \; > checksums.sha256
-```
-
-Comprobación:
-
-```bash
-sha256sum -c checksums.sha256
-```
-
-La versión asociada a la entrega final del TFM debe identificarse mediante una etiqueta:
-
-```text
-v1.0.0
-```
 
 ---
 
